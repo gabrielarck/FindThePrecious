@@ -1,186 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>FindThePrecious</title>	
-	<link rel="stylesheet" type="text/css" href="css/generale.css">
-</head>
-<body>
-	<div id="page">
-	<header>
-		<nav class="navtop">
-			<h1>FindThePrecious.com</h1>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Stanislas Vega">
+		<meta name="description" content="Sauron website to find the ring or any information linking it, it also allows to establish a list of the best enemy hunters and join the army of Mordor">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/generale.css">
+		<title>Find-The-Precious.com</title>
+	</head>
+	<body>
+		<div id="page">
+<!------------------------------------------------------------------------------------ NAVIGATION ----------------------------------------------------------------->
+		<header>
+			<nav class="navtop">
+				<h1>FindThePrecious</h1>
+				<ul>
+					<li><a href="#fellows"></a>Fellows</li>
+					<li><a href="#theRing"></a>The ring</li>
+					<li><a href="#getMyReward"></a>Get my reward</li>
+					<li><a href="#bestHunters"></a>Best hunters</li>
+					<li><a href="#joinArmy"></a>Join the army</li>
+					<li><a href="#contactUs"></a>Contact us</li>
+				</ul>
+			</nav>
+		</header>
+<!------------------------------------------------------------------------------------------- CAROUSEL ----------------------------------------------------------------->
+			<div class="carrousel">
+				<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/140?" alt="a picture"></a></p>
+				<p>Dangerous fellowship try to destroy the ring</p>
+				<p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
+			</div>
+<!------------------------------------------------------------------------------------- FELLOWS ----------------------------------------------------------------->
+		<section id="fellows">
+			<h2>Fellows wanted dead (or alive if you want to eat them later)</h2>
 			<ul>
-				<li><a href="#fellows"></a>Fellows</li>
-				<li><a href="#theRing"></a>The ring</li>
-				<li><a href="#getMyReward"></a>Get my reward</li>
-				<li><a href="#bestHunters"></a>Best hunters</li>
-				<li><a href="#joinArmy"></a>Join the army</li>
-				<li><a href="#contactUs"></a>Contact us</li>
+<!-- ACCORDING TO THE MODEL WE SEE THAT "MOST WANTED" IS A CLICKABLE BUTTON SO FOR THE REST THE GOAL WILL BE TO CREATE THREE BUTTONS. DEPENDING ON THE BUTTON CLICKED THE PROFILES OF THE PLAYERS WILL BE DISPLAYED VIA A DATABASE . -->
+				<li>Most wanted</li>
+				<li>Most dangerous</li>
+				<li>Already captured</li>
 			</ul>
-		</nav>
-	</header>
-		<div class="carrousel">
-			<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/140?" alt="a picture"></a></p>
-			<p>Dangerous fellowship try to destroy the ring</p>
-			<p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
-		</div>
-	<section id="fellows">
-		<h2>Fellows wanted dead (or alive if you want to eat them later)</h2>
-		<ul>
-			<!-- According to the model we see that "Most wanted" is a clickable button so for the rest the goal will be to create three buttons. Depending on the button clicked the profiles of the players will be displayed via a database . -->
-			<li>Most wanted</li>
-			<li>Most dangerous</li>
-			<li>Already captured</li>
-		</ul>
-		<div class="goodHunter">
-			<div class="hunter-profil">
-				<div class="gold-profil">
-					<p >Reward <span class="coins">1000</span> golden coins</p>
-				</div>				
-				<img src="https://images5.alphacoders.com/509/thumb-1920-509402.jpg" alt="Gandalf">				
-				<div class="name-profil"><span>Gandalf</span>
-				</div>				
-				<div class="text">
-                    <p>Easy to find at night because he smokes a lot</p>
-                </div>
+			<div class="goodHunter">
+				<div class="hunter-profil">
+					<div class="gold-profil">
+						<p >Reward <span class="coins">1000</span> golden coins</p>
+					</div>				
+					<img src="https://images5.alphacoders.com/509/thumb-1920-509402.jpg" alt="Gandalf">				
+					<div class="name-profil"><span>Gandalf</span>
+					</div>				
+					<div class="text">
+	                    <p>Easy to find at night because he smokes a lot</p>
+	                </div>
+				</div>
+				<div class="hunter-profil">
+					<div class="gold-profil">
+						<p >Reward <span class="coins">250</span> golden coins</p>
+					</div>				
+					<img src="https://i.pinimg.com/736x/d0/09/99/d009995237a6540160108be535791602--female-dwarf-character-portraits.jpg" alt="Dwarf women">				
+					<div class="name-profil"><span>Yummy</span>
+					</div>				
+					<div class="text">
+	                   	<p>Gimli woman, stronger and faster</p>
+	                </div>					
+				</div>
+				<div class="hunter-profil">
+					<div class="dead-profil">
+						<p >Dead</p>
+					</div>				
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVGd7aH9lbk0Zv1ueBIyXdUX2bDIMUcogcCcTH23FKYPxFkVNO" alt="Hobbit">	
+					<div class="dead-name-profil"><span>wine bag</span>
+					</div>				
+					<div class="text">
+	                    <p>Find in a bar</p>
+	                </div>			
+				</div>			
 			</div>
-			<div class="hunter-profil">
-				<div class="gold-profil">
-					<p >Reward <span class="coins">250</span> golden coins</p>
-				</div>				
-				<img src="https://i.pinimg.com/736x/d0/09/99/d009995237a6540160108be535791602--female-dwarf-character-portraits.jpg" alt="Dwarf women">				
-				<div class="name-profil"><span>Yummy</span>
-				</div>				
-				<div class="text">
-                   	<p>Gimli woman, stronger and faster</p>
-                </div>					
+		</section>
+	<hr>
+<!----------------------------------------------------------------------------------------------- GET MY REWARD ----------------------------------------------------------------->
+		<section id="getMyReward">
+			<h2>I have captured one of them? how to get my reward?</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus molestie velit, vitae porttitor nulla ullamcorper quis. In congue ex massa, id maximus orci malesuada ac. Praesent sit amet porta turpis. Vestibulum placerat, mauris ac porta cursus, nunc risus pellentesque tellus, eget gravida enim purus et leo. Donec consequat sollicitudin magna, ac tincidunt risus ullamcorper eu. Duis tincidunt maximus turpis. Aenean auctor metus nisl, a malesuada nisi ultrices nec. Vestibulum ac nunc id felis volutpat commodo. Aenean tempor, dui venenatis aliquet lacinia, urna sapien ullamcorper leo, sed mollis ex tellus vel velit. Curabitur ipsum nisi, auctor vel porttitor eu, viverra ac lorem. Aliquam nec sem convallis, sollicitudin metus a, eleifend purus. Pellentesque sodales est nec odio condimentum consectetur nec vel massa.</p>
+			<form action="#">
+				<a href="mailto:stanislasvega@yahoo.fr"><input type="button" value="Contact us" title="click here to send a message"></a>
+			</form>		
+			<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/140?" alt="a picture" ></a></p>
+		</section>
+	<hr>
+<!------------------------------------------------------------------------------------------------ BEST HUNTER ----------------------------------------------------------------->
+		<section id="bestHunters">
+			<h1>Best hunters</h1>
+			<div class="profil">
+				<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/70?" alt="a picture"></a></p>
+				<h3>ElvesKiller22</h3>
+				<p>2 captures - <a href="" title="all the stats of the hunters">Profile</a></p>
+				<form action="#" class="like">
+	    			<input type="button" value="Like 68K" title="support your hunters">
+	    		</form>
 			</div>
-			<div class="hunter-profil">
-				<div class="dead-profil">
-					<p >Dead</p>
-				</div>				
-				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVGd7aH9lbk0Zv1ueBIyXdUX2bDIMUcogcCcTH23FKYPxFkVNO" alt="Hobbit">	
-				<div class="dead-name-profil"><span>wine bag</span>
-				</div>				
-				<div class="text">
-                    <p>Find in a bar</p>
-                </div>			
-			</div>			
+			<div class="profil">	
+				<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/70?" alt="a picture"></a></p>
+				<h3>Goblin</h3>
+				<p>1 capture - <a href="" title="all the stats of the hunters">Profile</a></p>
+				<form action="#" class="like" title="support your hunters">
+	    			<input type="button" value="Like 68K">
+	    		</form>	
+			</div>	
+		</section>		
+	<hr>
+<!--------------------------------------------------------------------------------------------------- THE RING  ----------------------------------------------------------------->
+		<section id="theRing">
+			<h2>About the ring</h2>
+			<div class="ring1">
+				<h3>Ring Capabilities</h3>
+				<p>What can our master Sauron do with the ring?</p>
+					<table>
+	        			<thead>
+	            			<tr>              
+	                			<th>Feature</th>
+	                			<th>Description</th>              
+	            			</tr>
+	        			</thead>
+	            		<tbody>
+	                		<tr>
+	                  			<td>Main</td>
+	                  			<td>One ring to rules them all</td>              
+	                		</tr>
+	                		<tr>
+	                    		<td>Invisibility</td>
+	                    		<td>You can see me</td>             
+	                		</tr>
+	                		<tr>
+	                    		<td>Power</td>
+	                    		<td>Destroy the world</td>              
+	            			</tr>
+	          			</tbody>
+	    			</table>
+	    	</div>
+	    <div class="ring2">
+	    <h2>Why the ring is awesome?</h2>
+	    	<p>My preciooooooussssss ! HrK HrK, we want our preeciooooouuusssss !! </p>
+	    	<h3>Gollum</h3>
+	    	<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/110?" alt="a picture"></a></p>
 		</div>
-	</section>
-<hr>
-	<section id="getMyReward">
-		<h2>I have captured one of them? how to get my reward?</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus molestie velit, vitae porttitor nulla ullamcorper quis. In congue ex massa, id maximus orci malesuada ac. Praesent sit amet porta turpis. Vestibulum placerat, mauris ac porta cursus, nunc risus pellentesque tellus, eget gravida enim purus et leo. Donec consequat sollicitudin magna, ac tincidunt risus ullamcorper eu. Duis tincidunt maximus turpis. Aenean auctor metus nisl, a malesuada nisi ultrices nec. Vestibulum ac nunc id felis volutpat commodo. Aenean tempor, dui venenatis aliquet lacinia, urna sapien ullamcorper leo, sed mollis ex tellus vel velit. Curabitur ipsum nisi, auctor vel porttitor eu, viverra ac lorem. Aliquam nec sem convallis, sollicitudin metus a, eleifend purus. Pellentesque sodales est nec odio condimentum consectetur nec vel massa.</p>
-		<form action="#">
-			<input type="button" value="Contact us">
-		</form>		
-		<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/140?" alt="a picture"></a></p>
-	</section>
-<hr>
-	<section id="bestHunters">
-		<h1>Best hunters</h1>
-		<div class="profil">
-			<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/70?" alt="a picture"></a></p>
-			<h3>ElvesKiller22</h3>
-			<p>2 captures - <a href="">Profile</a></p>
-			<form action="#" class="like">
-    			<input type="button" value="Like 68K">
-    		</form>
-		</div>
-		<div class="profil">	
-			<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/70?" alt="a picture"></a></p>
-			<h3>Goblin</h3>
-			<p>1 capture - <a href="">Profile</a></p>
-			<form action="#" class="like">
-    			<input type="button" value="Like 68K">
-    		</form>	
-		</div>	
-	</section>		
-<hr>
-	<section id="theRing">
-		<h2>About the ring</h2>
-		<div class="ring1">
-			<h3>Ring Capabilities</h3>
-			<p>What can our master Sauron do with the ring?</p>
-				<table>
-        			<thead>
-            			<tr>              
-                			<th>Feature</th>
-                			<th>Description</th>              
-            			</tr>
-        			</thead>
-            		<tbody>
-                		<tr>
-                  			<td>Main</td>
-                  			<td>One ring to rules them all</td>              
-                		</tr>
-                		<tr>
-                    		<td>Invisibility</td>
-                    		<td>You can see me</td>             
-                		</tr>
-                		<tr>
-                    		<td>Power</td>
-                    		<td>Destroy the world</td>              
-            			</tr>
-          			</tbody>
-    			</table>
-    	</div>
-    <div class="ring2">
-    <h2>Why the ring is awesome?</h2>
-    	<p>My preciooooooussssss ! HrK HrK, we want our preeciooooouuusssss !! </p>
-    	<h3>Gollum</h3>
-    	<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/110?" alt="a picture"></a></p>
+		</section>
+	<hr>
+<!--------------------------------------------------------------------------------------------- JOIN ARMY ----------------------------------------------------------------->
+		<section id="joinArmy">
+			<h1>Join Mordor Army, We need you!</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus molestie velit, vitae porttitor nulla ullamcorper quis. In congue ex massa, id maximus orci malesuada ac. Praesent sit amet porta turpis. Vestibulum placerat, mauris ac porta cursus, nunc risus pellentesque tellus, eget gravida enim purus et leo. Donec consequat sollicitudin magna, ac tincidunt risus ullamcorper eu. Duis tincidunt maximus turpis. Aenean auctor metus nisl, a malesuada nisi ultrices nec. Vestibulum ac nunc id felis volutpat commodo. Aenean tempor, dui venenatis aliquet lacinia, urna sapien ullamcorper leo, sed mollis ex tellus vel velit. Curabitur ipsum nisi, auctor vel porttitor eu, viverra ac lorem. Aliquam nec sem convallis, sollicitudin metus a, eleifend purus. Pellentesque sodales est nec odio condimentum consectetur nec vel massa.</p>
+		<p><a href="SauronRulesThemAll.com" title="recruiting area for the Lord of the Rings army">More info on SauronRulesThemAll.com</a></p>
+		<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/140?" alt="a picture" ></a></p>
+		</section>
+	<hr>
+<!--------------------------------------------------------------------------------------------- CONTACT US----------------------------------------------------------------->
+		<section id="contactUs">
+			<h2>Contact us</h2>
+			<form class="Form" method="POST" action="reception-formulaire.php" enctype="multipart/form-data">
+				<div class="formEma">			
+	    			<label for="email">E-mail*</label>
+	    			<input type="email" id="email" name="user_email" placeholder="ex.mariedupoid@laposte.net"/>
+	    		</div>	
+	    		<div class="formAdr">
+	    			<label for="Adress">Adress*</label>
+	    			<input type="text" name="user_adress" id="Adress" required value placeholder="20 rue de là d'ou je viens">
+	    		</div>  		
+	    		<div class="formSel">
+	    			<select>
+	    				<option selected="">I have seen one of them</option>
+	    				<option>I have captured one of them</option>
+	    				<option>I want to join your army</option>
+	    			</select>
+	    		</div>
+	    		<div class="formMes">
+	    			<label for="msg">Your message</label>
+	    			<textarea id="msg" name="user_message" rows="10" cols="35"></textarea>
+	    		</div>
+	    		<div class="formEnv">
+	    			<input type="submit" value="Subscribe!" title="sign up (completely free without any obligation to purchase">
+	  			</div>
+	    	</form>  
+		</section>
+<!--------------------------------------------------------------------------------------------- FOOTER ----------------------------------------------------------------->
+		<footer class="footer">
+			<ul >
+				<li><a href="">About us</a></li>
+				<li><a href="#Fellows">Fellows</a></li>
+				<li><a href="#JoinArmy">Join our army</a></li>
+				<li><a href="">FAQ</a></li>
+				<li><a href="">Reward conditions</a></li>
+				<li><a href="">Legal mentions</a></li>
+			</ul>
+			<p><a href="Sauron4Ever.com" title="the official website of Sauron">Sauron4Ever.com</a></p>
+			<p><a href="">Follow him also on twitter</a></p>
+		</footer>
 	</div>
-	</section>
-<hr>
-	<section id="joinArmy">
-		<h1>Join Mordor Army, We need you!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus molestie velit, vitae porttitor nulla ullamcorper quis. In congue ex massa, id maximus orci malesuada ac. Praesent sit amet porta turpis. Vestibulum placerat, mauris ac porta cursus, nunc risus pellentesque tellus, eget gravida enim purus et leo. Donec consequat sollicitudin magna, ac tincidunt risus ullamcorper eu. Duis tincidunt maximus turpis. Aenean auctor metus nisl, a malesuada nisi ultrices nec. Vestibulum ac nunc id felis volutpat commodo. Aenean tempor, dui venenatis aliquet lacinia, urna sapien ullamcorper leo, sed mollis ex tellus vel velit. Curabitur ipsum nisi, auctor vel porttitor eu, viverra ac lorem. Aliquam nec sem convallis, sollicitudin metus a, eleifend purus. Pellentesque sodales est nec odio condimentum consectetur nec vel massa.</p>
-	<p><a href="SauronRulesThemAll.com">More info on SauronRulesThemAll.com</a></p>
-	<p><a href="https://placeholder.com"><img src="https://via.placeholder.com/140?" alt="a picture"></a></p>
-	</section>
-<hr>
-	<section id="contactUs">
-		<h2>Contact us</h2>
-		<form class="Form" method="POST" action="reception-formulaire.php" enctype="multipart/form-data">
-			<div class="formEma">			
-    			<label for="email">E-mail*</label>
-    			<input type="email" id="email" name="user_email" placeholder="ex.mariedupoid@laposte.net"/>
-    		</div>	
-    		<div class="formAdr">
-    			<label for="Adress">Adress*</label>
-    			<input type="text" name="user_adress" id="Adress" required value placeholder="20 rue de là d'ou je viens">
-    		</div>  		
-    		<div class="formSel">
-    			<select>
-    				<option selected="">I have seen one of them</option>
-    				<option>I have captured one of them</option>
-    				<option>I want to join your army</option>
-    			</select>
-    		</div>
-    		<div class="formMes">
-    			<label for="msg">Your message</label>
-    			<textarea id="msg" name="user_message" rows="10" cols="35"></textarea>
-    		</div>
-    		<div class="formEnv">
-    			<input type="submit" value="Subscribe!">
-  			</div>
-    	</form>  
-	</section>
-	<footer class="footer">
-		<ul >
-			<li><a href="">About us</a></li>
-			<li><a href="#Fellows">Fellows</a></li>
-			<li><a href="#JoinArmy">Join our army</a></li>
-			<li><a href="">FAQ</a></li>
-			<li><a href="">Reward conditions</a></li>
-			<li><a href="">Legal mentions</a></li>
-		</ul>
-		<p><a href="Sauron4Ever.com">Sauron4Ever.com</a></p>
-		<p><a href="">Follow him also on twitter</a></p>
-	</footer>
-</div>
-</body>
-</html>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+	</html>
