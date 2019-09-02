@@ -102,3 +102,8 @@
 	font-size: 1.5em;
 	padding-left: 1em;
 }
+a, li{
+	text-decoration: none;
+	list-style: none;
+	color: #0f0e0e;
+}
